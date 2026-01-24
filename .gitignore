@@ -1,0 +1,42 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Android
+local.properties
+*.apk
+*.aab
+
+# Kotlin/Java
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache/
+.venv/
+venv/
+
+# Server data
+server/data/
+server/certs/
+
+# Secrets
+.env
+server_config.json

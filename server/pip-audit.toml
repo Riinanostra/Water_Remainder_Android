@@ -1,0 +1,3 @@
+[audit]
+# Suppress GHSA-7f5h-v6xp-fcq8 for starlette until FastAPI allows >=0.49.1
+ignore-vulns = ["GHSA-7f5h-v6xp-fcq8"]

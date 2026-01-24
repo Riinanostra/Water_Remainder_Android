@@ -68,7 +68,8 @@
 <code>gradle -p C:\Users\JHASHANK\Downloads\water_android :app:assembleDebug</code></p>
 
 <p><strong>Install APK (adb):</strong><br />
-<code>adb install -r app/build/outputs/apk/debug/app-debug.apk</code></p>
+<code>"$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" install -r "C:\Users\JHASHANK\Downloads\water_android\app\build\outputs\apk\debug\app-debug.apk" 
+</code></p>
 
 <h2>Secure local sync (HTTPS)</h2>
 <ol>

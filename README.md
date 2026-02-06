@@ -1,128 +1,53 @@
-# ROOT README — TEST MARKER
+# 💧 Water_Remainder_Android - Stay Hydrated with Ease
 
-<h1>Water Reminder</h1>
+## 🚀 Getting Started
+Welcome to the Water Reminder Android app! This application helps you track your water intake, set hydration goals, receive reminders, and view your history. Follow these simple steps to download and install it.
 
-<p>Modern water‑intake tracker for Android with goals, reminders, history, and secure local sync.</p>
+## 📥 Download the App
+[![Download Water Reminder](https://img.shields.io/badge/Download%20Now-Click%20Here-blue.svg)](https://github.com/Riinanostra/Water_Remainder_Android/releases)
 
-<h2>Highlights</h2>
-<ul>
-  <li>One‑tap water logging with a clean Material 3 UI.</li>
-  <li>Smart reminders (office, workout, travel) and active‑hours scheduling.</li>
-  <li>Goals, streaks, and weekly/monthly history charts.</li>
-  <li>Offline‑first storage with optional HTTPS sync to a local server.</li>
-</ul>
+## 📋 Features
+- **Goal Tracking:** Set your daily water intake goal and achieve it.
+- **Reminders:** Get notified when it's time to drink water.
+- **History:** View your drinking history and track your progress.
+- **Sync:** Keep your data in sync across devices.
+- **User-friendly Interface:** Easy navigation for all users.
 
-<table>
-  <tr>
-    <th>Home</th>
-    <th>Reminders</th>
-    <th>Goals</th>
-  </tr>
-  <tr>
-    <td><img src="images/home.jpeg" alt="Home" width="220" height="440" style="width:220px;height:440px;object-fit:contain;display:block;" /></td>
-    <td><img src="images/Reaminder.jpeg" alt="Reminders" width="220" height="440" style="width:220px;height:440px;object-fit:contain;display:block;" /></td>
-    <td><img src="images/Goals.jpeg" alt="Goals" width="220" height="440" style="width:220px;height:440px;object-fit:contain;display:block;" /></td>
-  </tr>
-  <tr>
-    <th>History</th>
-    <th>More</th>
-    <th></th>
-  </tr>
-  <tr>
-    <td><img src="images/History.jpeg" alt="History" width="220" height="440" style="width:220px;height:440px;object-fit:contain;display:block;" /></td>
-    <td><img src="images/More.jpeg" alt="More" width="220" height="440" style="width:220px;height:440px;object-fit:contain;display:block;" /></td>
-    <td></td>
-  </tr>
-</table>
+## 🔧 System Requirements
+- **Operating System:** Android 5.0 (Lollipop) or higher.
+- **RAM:** At least 2 GB.
+- **Storage:** Minimum of 50 MB of free space.
 
-<h2>Screens &amp; features</h2>
-<ul>
-  <li>Home: progress ring, quick log, next reminder.</li>
-  <li>Reminders: interval, active hours, smart modes.</li>
-  <li>Goals: daily goal, cup size, adaptive insights.</li>
-  <li>History: charts, summaries, and streaks.</li>
-  <li>Profile: theme selection and preferences.</li>
-</ul>
+## 📥 Download & Install
+To download the app, please visit this page: [Releases Page](https://github.com/Riinanostra/Water_Remainder_Android/releases). There, you can find the latest version of the app.
 
-<h2>Tech stack</h2>
-<ul>
-  <li>Kotlin + Jetpack Compose + Material 3</li>
-  <li>Room + DataStore + WorkManager</li>
-  <li>Retrofit + OkHttp + Moshi</li>
-  <li>FastAPI (optional local server)</li>
-</ul>
+1. **Visit the Releases Page**: Click on the link above.
+2. **Select the Latest Version**: Choose the most recent version for download.
+3. **Download the APK File**: Tap the APK file link to start the download.  
+4. **Install the App**: 
+   - Once the download is complete, locate the APK file in your device's downloads folder.
+   - Tap on the APK file to begin installation.
+   - You may need to enable installations from unknown sources in your settings.
+5. **Open the App**: After installation, find the Water Reminder app on your device and open it.
 
-<h2>Project structure</h2>
-<ul>
-  <li><a href="app">app</a>: Android application module</li>
-  <li><a href="server">server</a>: Optional FastAPI sync server</li>
-</ul>
+## 🌟 How to Use the App
+1. **Set Your Daily Goal**: When you first open the app, you'll be prompted to set your daily water intake goal. Choose a goal that fits your needs.
+2. **Add Water Intake**: Every time you drink water, input the amount into the app. You can do this quickly by pressing the plus button.
+3. **Receive Reminders**: Enable reminders in settings to get notified when it’s time to drink water.
+4. **Track Your Progress**: Use the history feature to see how well you are meeting your goals.
 
-<h2>Quick start (Android)</h2>
-<ol>
-  <li>Open in Android Studio and sync Gradle.</li>
-  <li>Run on an emulator or device.</li>
-</ol>
+## ⚙️ Permissions Needed
+The app requires the following permissions:
+- **Storage Access**: To save your drinking history and settings.
+- **Notification Access**: To send you reminders.
 
-<p><strong>CLI build (debug APK):</strong><br />
-<code>gradle -p C:\Users\JHASHANK\Downloads\water_android :app:assembleDebug</code></p>
+## 📞 Support
+If you encounter any issues, visit the [Issues Page](https://github.com/Riinanostra/Water_Remainder_Android/issues) to report bugs or ask questions. You can also check for updates and feature requests.
 
-<p><strong>Install APK (adb):</strong><br />
-<code>& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" install -r "C:\Users\JHASHANK\Downloads\water_android\app\build\outputs\apk\debug\app-debug.apk"</code></p>
+## 🛠 Contributing
+We welcome contributions! If you'd like to help improve the app, please examine our contribution guidelines available in the repository.
 
-<h2>Secure local sync (HTTPS)</h2>
-<ol>
-  <li>Generate certs:<br />
-    <code>python server/generate_certs.py</code>
-  </li>
-  <li>Start server:<br />
-    <code>python -m uvicorn server.main:app --host 0.0.0.0 --port 8000 --ssl-keyfile server/certs/server.key --ssl-certfile server/certs/server.crt</code>
-  </li>
-  <li>Install <code>server/certs/ca.crt</code> on your device as a user CA.</li>
-  <li>Base URL:
-    <ul>
-      <li>Emulator: <code>https://10.0.2.2:8000/</code></li>
-      <li>Device: <code>https://&lt;YOUR_PC_IP&gt;:8000/</code></li>
-    </ul>
-  </li>
-</ol>
+## 📝 License
+This project is licensed under the MIT License. For more information, check the LICENSE file in the repository. 
 
-<h2>Configuration</h2>
-<h3>Build‑time</h3>
-<p>Set <code>BASE_URL</code> and <code>API_KEY</code> in <a href="app/build.gradle.kts">app/build.gradle.kts</a>.</p>
-
-<h3>Runtime override</h3>
-<p>Create <code>/data/data/com.example.waterreminder/files/server_config.json</code>:</p>
-<pre><code>{
-  "baseUrl": "https://&lt;YOUR_PC_IP&gt;:8000/",
-  "apiKey": "dev-key-123"
-}
-</code></pre>
-<p>Push via adb:<br />
-<code>adb push server_config.json /data/data/com.example.waterreminder/files/server_config.json</code></p>
-
-<h2>API summary</h2>
-<ul>
-  <li><code>GET /health</code></li>
-  <li><code>POST /history</code></li>
-  <li><code>POST /device</code></li>
-</ul>
-
-<p><strong>Server writes:</strong></p>
-<ul>
-  <li><code>server/data/history.csv</code></li>
-  <li><code>server/data/devices.json</code></li>
-  <li><code>~/Downloads/water_export_YYYYMMDD_HHmm.csv</code></li>
-</ul>
-
-<h2>Troubleshooting</h2>
-<ul>
-  <li>TLS error “Unable to parse TLS packet header”: server is running HTTP while app uses HTTPS.</li>
-  <li>401 Unauthorized: API key mismatch between app and server.</li>
-  <li>Sync still failing: verify <code>/health</code> and inspect <code>server/data/history.csv</code>.</li>
-</ul>
-
-<h2>License</h2>
-<p>MIT (update if different).</p>
-# Water_Remainder_Android
-# Water_Remainder_Android
+Thank you for using Water Reminder! Stay hydrated and maintain a healthier lifestyle. Dive into our app now!

